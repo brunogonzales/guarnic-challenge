@@ -1,0 +1,19 @@
+{
+  "name": "guarnic-solution",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "after-30-days": "node after-30-days.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.js"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
