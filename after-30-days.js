@@ -1,5 +1,4 @@
 const { initialProducts } = require('./constants.js')
-const Product = require('./classes/Product.js')
 const CarInsurance = require('./classes/CarInsurance.js')
 
 const carInsurance = new CarInsurance(initialProducts)
